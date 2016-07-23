@@ -1,0 +1,74 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Template Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nojs.css">
+	<script src="jquery-3.0.0.min.js"></script>
+	<script src="jquery.mousewheel.min.js"></script>
+	<script src="jwheel.js"></script>
+</head>
+<body>
+	<div id="lit-back"></div>
+	<div class="lit-wrapper">
+		<div class="lit-container">
+			<div class="hgroup">
+				<h1>Level 1 header</h1>
+				<p>Subheader</p>
+			</div>
+			<h2>Level 2 header</h2>
+			<p>A paragraph.</p>
+			<p>Numerated list:</p>
+			<ol>
+				<li>Item</li>
+				<li>Item</li>
+				<li>Item</li>
+			</ol>
+			<p>Unnumerated list:</p>
+			<ul>
+				<li>Item</li>
+				<li>Item</li>
+				<li>Item</li>
+			</ul>
+			<p>Paragraph.</p>
+			<p>Paragraph.</p>
+			<p>Paragraph.</p>
+			<p>Numerated list:</p>
+			<ol>
+				<li>Item</li>
+				<li>Item</li>
+				<li>Item</li>
+			</ol>
+			<p>Unnumerated list:</p>
+			<ul>
+				<li>Item</li>
+				<li>Item</li>
+				<li>Item</li>
+			</ul>
+		</div>
+	</div>
+	<div id="nojs">
+		<input id="nojs-input" type="checkbox">
+		<label id="nojs-label" for="nojs-input" onclick="">
+			<div class="lit-wrapper">
+				<div class="lit-container">
+					<h2>Switch on JavaScript in your browser</h2>
+					<p>This site needs JavaScript:</p>
+					<ul>
+						<li>to enable horizontal scrolling with mouse</li>
+						<li>and to stick div blocks to headers.</li>
+					</ul>
+					<p>However, JavaScript is not necessary: you can continue browsing this site without it. Just click (or tap) on any place of this page. </p>
+					<h3>Technical details</h3>
+					<p><i>Label</i> and <i>input</i> elements were used for showing and hiding this message.</p>
+					<p>Tested in Firefox 47 & Chromium 51.</p>
+					<p>Known problems: <a href="https://github.com/einse/lit/issues">github.com/einse/lit/issues</a></p>
+				</div>
+			</div>
+		</label>
+	</div>
+</body>
+</html>
+<script src="lit.js"></script>
+<script src="nojs.js"></script>
