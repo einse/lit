@@ -1,2 +1,2 @@
 # lit
-Another way to place elements horizontally (using flexbox).
+Another attempt to arrange HTML blocks horizontally (by using flexbox).
